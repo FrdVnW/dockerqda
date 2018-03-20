@@ -15,9 +15,14 @@ This image proposes the last stable version of RQDA (0.2-8) running in Debian 8 
 I use this script to run the image : 
 
 #+BEGIN_SRC bash
+# Pulling the images
+docker pull frdvnw/dockerqda
+# Exec the script for running the container
+chmod +x RunDockeRQDA.sh
+./RunDockeRQDA.sh
+#+END_SRC
 
-# docker pull frdvnw/dockerqda
-
+#+BEGIN_SRC bash
 #!/bin/bash
 XSOCK=/tmp/.X11-unix
 XAUTH=/tmp/.docker.xauth
@@ -29,7 +34,7 @@ sudo docker run -it --volume=$XSOCK:$XSOCK:rw \
      --name whirl_wheels \
      --workdir=/root/ \
      --volume=/WHERE/YOU/WANT/IN/YOUR/COMPUTER/dockerqda/:/home/dockerqda/ \
-     dockerqda
+     frdvnw/dockerqda:latest
 
 #+END_SRC
 
