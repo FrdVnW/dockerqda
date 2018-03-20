@@ -10,7 +10,7 @@ A dockerfile for easily using RQDA - an awesome Gtk+ qualitative data analysis t
 This project find its roots in the fact that RQDA dependencies are not easily available/installed in modern distribution of Linux and R.
 
 * How ?
-This image propose the last stable version of RQDA running in Debian 8 (jessie) and R
+This image proposes the last stable version of RQDA (0.2-8) running in Debian 8 (jessie) and R (3.1)
 
 I use this script to run the image : 
 
