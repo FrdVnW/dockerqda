@@ -42,6 +42,6 @@ Devel version of RQDA is in progress on GitHub : [[https://github.com/Ronggui/RQ
 HUANG Ronggui (2016). RQDA: R-based Qualitative Data Analysis. R package version 0.2-8.
  
 * References
-Among [[http://rqda.r-forge.r-project.org/publications.html][references]], I personnaly used RQDA for two scientific papers : 
+Among [[http://rqda.r-forge.r-project.org/publications.html][references]], I used RQDA for two scientific papers : 
 - [[https://doi.org/10.1016/j.ecolmodel.2012.11.023][Development of a broadened cognitive mapping approach for analysing systems of practices in social–ecological systems ]]
 - [[https://doi.org/10.1016/j.ecolmodel.2013.11.026][A new approach for comparing and categorizing farmers’ systems of practice based on cognitive mapping and graph theory indicators]]
