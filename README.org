@@ -5,7 +5,12 @@
 -----
 
 * What is it ?
-A dockerfile for easily using RQDA - an awesome Gtk+ qualitative data analysis tools for R (a "computer-aided qualitative data analysis", CAQDA)
+A docker image for easily using RQDA. RQDA is an awesome Gtk+ qualitative data analysis tools for R (a "computer-aided qualitative data analysis", CAQDA).
+
+
+Docker, container, image ?? /A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings./ ([[https://www.docker.com/what-container][Official doc]])
+
+More on docker on [[https://pokyah.github.io/howto/using-r-with-docker/][Pokyah's blog]].
 
 * Why ?
 This project find its roots in the fact that RQDA dependencies are not easily available/installed in modern distribution of Linux and R.
