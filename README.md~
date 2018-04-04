@@ -3,11 +3,7 @@
 
 # What is it ?
 
-A docker image for easily using RQDA. RQDA is an awesome Gtk+ qualitative data analysis tools for R (a "computer-aided qualitative data analysis", CAQDA).
-
-Docker, container, image ?? *A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings.* ([Official doc](https://www.docker.com/what-container))
-
-More on docker on [Pokyah's blog](https://pokyah.github.io/howto/using-r-with-docker/).
+A dockerfile for easily using RQDA - an awesome Gtk+ qualitative data analysis tools for R (a "computer-aided qualitative data analysis", CAQDA)
 
 
 # Why ?
