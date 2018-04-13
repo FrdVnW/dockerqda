@@ -44,6 +44,9 @@ sudo docker run -it --volume=$XSOCK:$XSOCK:rw \
 
 #+END_SRC
 
+* Debug if needed (open a terminal in your container)
+docker exec -t -i whirl_wheels /bin/bash
+
 * Credits & More info
 RQDA is available under [[http://rqda.r-forge.r-project.org/License.html][bsd-license]]. It was coded by [[https://github.com/Ronggui][Ronggui HUANG]].
 
