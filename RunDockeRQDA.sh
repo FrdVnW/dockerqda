@@ -8,5 +8,5 @@ docker run --rm -it --volume=$XSOCK:$XSOCK:rw \
        --env="DISPLAY" \
        --name whirl_wheels \
        --workdir=/root/ \
-       --volume=/home/fred/Projects/R/dockerqda/:/home/dockerqda/ \
+       --volume=`pwd`:/home/dockerqda/ \
        frdvnw/dockerqda:latest
